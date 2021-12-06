@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  padding: 150px;
+  background-image: url("./img/hbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 650;
+  text-align: center;
+}
+.header p{
+  font-size: 22px;
+}
+.smallContents{
+  background-color: white;
+  box-shadow: darkgray 2px 2px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  color: gray;
+}
+.smallContents img{
+  width: 45px;
+  height: 45px;
+}
+.smallContents p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+.smallContents > div{
+  height: 90px;
+}
+
+.position{
+  position: absolute;
+  margin-top: 410px;
+}
+#img1, #img2, #img3{
+  width: 20%;
+  margin-top: 130px;
+  position: absolute;
+  border-radius: 5px;
+  margin-left: 40px;
+  opacity: 0.8;
+}
+#img1{
+  margin-top: 80px;
+  margin-left: 40px;
+}
+#img2{
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.about{
+  display: block;
+}
+.positabs{
+  margin-top: 90px;
+}
+.ms-5{
+  float: right;
+  margin-right: 15px;
+  width: 60%;
+}
+.ms-5 h1{
+  margin: 30px;
+  color: blue;
+  
+}
+.ms-5 p{
+  font-size: 9px;
+  color: darkgrey;
+}
+.ms-5 button{
+  float: right;
+  margin-right: 30px;
+  padding: 5px 10px!important;
+}
+.clr{
+  clear: both;
+}
+
+.sv{
+  background-color: lightgray;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.sv > div img{
+  width: 100%;
+  height: 70px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.sv >div p{
+  font-size: 10px;
+  color: #42445A;
+}
+.blsv{
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+}
+.blsv div{
+  padding: 20px;
+}
+.blsv > div .col-12{
+    text-align: center;
+
+}
+.blsv row > div{
+  font-size: 12px;
+}
+.blsv>div p{
+  font-size: 10px;
+  float: right;
+  margin-top: 30px;
+}
+.truck{
+  position: absolute;
+  width: 280px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: 190px;
+}
